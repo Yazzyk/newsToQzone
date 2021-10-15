@@ -17,7 +17,7 @@ def news():
     return datalist
 
 
-info = '新闻api更换为36氪测试\n'+mySystem + 'auto-sent from selenium on ' + platform.uname().node + '\n新闻推送：\n'  # 哈！想不到吧，用这种方式来保存数据
+info = '新闻api更换为36氪测试\n'+mySystem + 'auto-sent from selenium on ' + platform.uname().node + '\n新闻推送：\n'
 count = 0  # 计算一下收到多少个新闻
 
 # print(news()['items'][0]['title'])
